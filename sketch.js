@@ -118,7 +118,7 @@ function draw() {
   }
   drawSprites();
 
-  text("Highscore: "+localStorage["HighestScore"],420,50)
+  text(localStorage["HighestScore"],420,50)
 }
 
 function spawnClouds() {
